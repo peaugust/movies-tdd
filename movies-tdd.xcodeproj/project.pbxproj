@@ -17,6 +17,11 @@
 		B35621E727839658009ACB66 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35621BD27839657009ACB66 /* ContentView.swift */; };
 		B35621E827839658009ACB66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B35621BE27839658009ACB66 /* Assets.xcassets */; };
 		B35621E927839658009ACB66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B35621BE27839658009ACB66 /* Assets.xcassets */; };
+		B35621F927839686009ACB66 /* APIRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35621F827839686009ACB66 /* APIRepository.swift */; };
+		B35621FA27839686009ACB66 /* APIRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35621F827839686009ACB66 /* APIRepository.swift */; };
+		B35621FC2783970A009ACB66 /* APIRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35621FB2783970A009ACB66 /* APIRepositoryTests.swift */; };
+		B35621FE27839809009ACB66 /* MockURLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35621FD27839809009ACB66 /* MockURLSession.swift */; };
+		B35621FF27839809009ACB66 /* MockURLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35621FD27839809009ACB66 /* MockURLSession.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,9 @@
 		B35621DC27839658009ACB66 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B35621E027839658009ACB66 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		B35621E227839658009ACB66 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		B35621F827839686009ACB66 /* APIRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRepository.swift; sourceTree = "<group>"; };
+		B35621FB2783970A009ACB66 /* APIRepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRepositoryTests.swift; sourceTree = "<group>"; };
+		B35621FD27839809009ACB66 /* MockURLSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockURLSession.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +108,8 @@
 				B35621BC27839657009ACB66 /* movies_tddApp.swift */,
 				B35621BD27839657009ACB66 /* ContentView.swift */,
 				B35621BE27839658009ACB66 /* Assets.xcassets */,
+				B35621F827839686009ACB66 /* APIRepository.swift */,
+				B35621FD27839809009ACB66 /* MockURLSession.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -128,6 +138,7 @@
 			children = (
 				B35621D427839658009ACB66 /* Tests_iOS.swift */,
 				B35621D627839658009ACB66 /* Tests_iOSLaunchTests.swift */,
+				B35621FB2783970A009ACB66 /* APIRepositoryTests.swift */,
 			);
 			path = "Tests iOS";
 			sourceTree = "<group>";
@@ -299,8 +310,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B35621FE27839809009ACB66 /* MockURLSession.swift in Sources */,
 				B35621E627839658009ACB66 /* ContentView.swift in Sources */,
 				B35621E427839658009ACB66 /* movies_tddApp.swift in Sources */,
+				B35621F927839686009ACB66 /* APIRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,8 +321,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B35621FF27839809009ACB66 /* MockURLSession.swift in Sources */,
 				B35621E727839658009ACB66 /* ContentView.swift in Sources */,
 				B35621E527839658009ACB66 /* movies_tddApp.swift in Sources */,
+				B35621FA27839686009ACB66 /* APIRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,6 +333,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B35621D727839658009ACB66 /* Tests_iOSLaunchTests.swift in Sources */,
+				B35621FC2783970A009ACB66 /* APIRepositoryTests.swift in Sources */,
 				B35621D527839658009ACB66 /* Tests_iOS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
